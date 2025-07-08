@@ -1,2 +1,2 @@
 run:
-	gcc main.c -o main && ./main
+	gcc main.c pkg/router/simple_router.c -o main && ./main
